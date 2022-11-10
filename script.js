@@ -37,7 +37,7 @@ const loadProducts = async () => {
   return product;
 };
 const renderData = (product) => {
-  let containerRow = document.querySelector(".container-fluid .row");
+  let containerRow = document.querySelector(".container .row");
   product.forEach((item) => {
     let column = document.createElement("div");
     column.className = "col-3";
